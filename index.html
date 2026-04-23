@@ -1,229 +1,608 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nexus Mind - Premium SaaS Agency</title>
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./css/index.css">
-</head>
+    <!--====== Title ======-->
+    <title>Praful Jadhao</title>
 
-<body>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Navbar -->
-  <nav id="navbar">
-    <div class="container nav-container">
-      <a href="#" class="logo">
-        <div class="logo-icon">N</div>
-        <span>NEXUS<span class="text-gradient">MIND</span></span>
-      </a>
+    <!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/png"
+    />
 
-      <div class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-        <a href="#contact" class="btn btn-primary">Get Started</a>
-      </div>
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-      <!-- Minimal Mobile Toggle (Pure CSS/JS) -->
-      <button id="mobile-toggle"
-        style="display: none; background: transparent; border: none; color: white; cursor: pointer;">
-        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-    </div>
-  </nav>
+    <!--====== LineIcons CSS ======-->
+    <link rel="stylesheet" href="assets/css/lineicons.css" />
 
-  <!-- Hero -->
-  <section class="hero" id="hero">
-    <div class="hero-bg">
-      <div class="glow glow-1"></div>
-      <div class="glow glow-2"></div>
-    </div>
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-    <div class="container">
-      <div class="reveal hero-capsule">
-        Pioneering Digital Future
-      </div>
-      <h1 class="reveal">
-        We Build <span class="text-gradient">Digital Experiences</span><br>That Stand Out
-      </h1>
-      <p class="reveal">
-        Premium web development, branding, and automation studio focused on creating bespoke solutions that drive growth
-        for modern businesses.
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css" />
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
       </p>
-      <div class="reveal hero-btns">
-        <a href="#contact" class="btn btn-primary">Get Started</a>
-        <a href="#portfolio" class="btn btn-glass">View Work</a>
-      </div>
-    </div>
-  </section>
+    <![endif]-->
 
-  <!-- Services -->
-  <section id="services">
-    <div class="container">
-      <div style="text-align: center; margin-bottom: 4rem;">
-        <h2 class="reveal" style="font-size: 3rem; margin-bottom: 1rem;">Digital <span
-            class="text-gradient">Solutions</span></h2>
-        <p class="reveal" style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">We combine strategy,
-          design, and engineering to deliver holistic digital products.</p>
-      </div>
+    <!--====== PRELOADER PART START ======-->
 
-      <div class="services-grid">
-        <!-- Service 1 -->
-        <div class="reveal service-card glass">
-          <div class="icon-box">
-            <svg class="icon" style="color: var(--primary-color)">
-              <path
-                d="M12 2a10 10 0 100 20 10 10 0 000-20zM2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z" />
-            </svg>
+    <div class="preloader">
+      <div class="loader">
+        <div class="ytp-spinner">
+          <div class="ytp-spinner-container">
+            <div class="ytp-spinner-rotator">
+              <div class="ytp-spinner-left">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+              <div class="ytp-spinner-right">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+            </div>
           </div>
-          <h3>Web Development</h3>
-          <p>High-performance web applications built with pure modern technologies.</p>
-        </div>
-        <!-- Service 2 -->
-        <div class="reveal service-card glass">
-          <div class="icon-box">
-            <svg class="icon" style="color: var(--accent-color)">
-              <path d="M12 19l7-7 3 3-10 10-10-10 3-3 7 7zM12 5l7 7-7 7-7-7 7-7z" />
-            </svg>
-          </div>
-          <h3>UI/UX Design</h3>
-          <p>Intuitive user interfaces focused on conversion and seamless experience.</p>
-        </div>
-        <!-- Service 3 -->
-        <div class="reveal service-card glass">
-          <div class="icon-box">
-            <svg class="icon" style="color: var(--purple-color)">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-            </svg>
-          </div>
-          <h3>Branding</h3>
-          <p>Visual identities that scale with your business and define your market position.</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- About Section -->
-    <section id="about" style="background: rgba(255,255,255,0.02);">
+    <!--====== PRELOADER PART ENDS ======-->
+
+    <!--====== HEADER PART START ======-->
+
+    <section class="header_area">
+      <div class="header_navbar">
         <div class="container">
-            <div class="about-grid">
-                <div class="reveal about-image">
-                    <img src="https://picsum.photos/seed/agency-core/800/800" alt="Team" referrerPolicy="no-referrer">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo.svg" alt="Logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="page-scroll" href="#home">Home<span></span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#about"
+                        >About<span></span
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#services"
+                        >Services<span></span
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#project"
+                        >Portfolio<span></span
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#pricing"
+                        >Pricing<span></span
+                      ></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#work"
+                        >Experience<span></span
+                      ></a>
+                    </li>
+                  </ul>
                 </div>
-                <div class="reveal">
-                    <h2 style="font-size: 3rem; margin-bottom: 2rem;">Redefining the <span class="text-gradient">Digital Landscape</span></h2>
-                    <p style="color: var(--text-muted); font-size: 1.125rem; margin-bottom: 2rem;">At Nexus Mind, we don't just build websites; we craft digital legacies. bridge the gap between complex technology and human-centric design.</p>
+                <!-- navbar collapse -->
+              </nav>
+              <!-- navbar -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- header navbar -->
+
+      <div id="home" class="header_hero">
+        <ul class="header_social d-none d-lg-block">
+          <li>
+            <a href="#"><i class="lni lni-facebook-filled"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="lni lni-twitter-filled"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="lni lni-instagram-filled"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="lni lni-linkedin-original"></i></a>
+          </li>
+        </ul>
+        <div class="container">
+          <div
+            class="row align-items-center justify-content-center justify-content-lg-between"
+          >
+            <div class="col-lg-6">
+              <div class="header_hero_content mt-45">
+                <h5
+                  class="header_sub_title wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.2s"
+                >
+                  Hello
+                </h5>
+                <h2
+                  class="header_title wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.5s"
+                >
+                  You are using free lite version of Freelancer
+                </h2>
+                <span
+                  class="wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.8s"
+                  >Please, purchase full version to get all elements, features,
+                  footer credit removal permission and commercial license</span
+                >
+                <p
+                  class="wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="1.1s"
+                >
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed
+                  diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam.
+                </p>
+                <a
+                  href="https://rebrand.ly/freelancer-ud"
+                  rel="nofollow"
+                  class="main-btn wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="1.4s"
+                  >Purchase Now</a
+                >
+              </div>
+              <!-- header hero content -->
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-7">
+              <div
+                class="header_hero_image mt-50 wow fadeInRightBig"
+                data-wow-duration="1.3s"
+                data-wow-delay="1.8s"
+              >
+                <img src="assets/images/hero.png" alt="hero" />
+              </div>
+              <!-- header hero image -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+        <div class="header_hero_shape d-none d-lg-block"></div>
+        <!-- header hero shape -->
+      </div>
+      <!-- header hero -->
+    </section>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about_area pt-70 pb-120">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 col-md-9">
+            <div
+              class="about_image mt-50 wow fadeInRightBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.5s"
+            >
+              <img src="assets/images/about_hero.png" alt="Hero" />
+              <div class="about_shape"></div>
+            </div>
+            <!-- about image -->
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="about_content mt-45 wow fadeInLeftBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.5s"
+            >
+              <div class="section_title">
+                <h5 class="sub_title">About</h5>
+                <h3 class="main_title">Why You Hire Me?</h3>
+                <ul class="line">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <!-- section title -->
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus.
+              </p>
+
+              <div class="about_skills pt-15">
+                <div class="skill_item mt-20">
+                  <div class="skill_header">
+                    <h6 class="skill_title">UI/UX Design</h6>
+                    <div class="skill_percentage">
+                      <p><span class="counter">85</span>%</p>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="bar_inner">
+                      <div class="bar progress_line" data-width="85"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- skill item -->
+                <div class="skill_item mt-20">
+                  <div class="skill_header">
+                    <h6 class="skill_title">Web Design</h6>
+                    <div class="skill_percentage">
+                      <p><span class="counter">75</span>%</p>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="bar_inner">
+                      <div class="bar progress_line" data-width="75"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- skill item -->
+                <div class="skill_item mt-20">
+                  <div class="skill_header">
+                    <h6 class="skill_title">HTML/CSS</h6>
+                    <div class="skill_percentage">
+                      <p><span class="counter">90</span>%</p>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="bar_inner">
+                      <div class="bar progress_line" data-width="90"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- skill item -->
+                <div class="skill_item mt-20">
+                  <div class="skill_header">
+                    <h6 class="skill_title">Sketch</h6>
+                    <div class="skill_percentage">
+                      <p><span class="counter">65</span>%</p>
+                    </div>
+                  </div>
+                  <div class="skill_bar">
+                    <div class="bar_inner">
+                      <div class="bar progress_line" data-width="65"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- skill item -->
+              </div>
+              <!-- about skill -->
+            </div>
+            <!-- about content -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+
+    <section id="services" class="services_area pt-115 pb-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section_title text-center pb-30">
+              <h5 class="sub_title">Services</h5>
+              <h3 class="main_title">Service I Provide</h3>
+              <ul class="line">
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="single_service mt-30 wow fadeInUpBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.2s"
+            >
+              <div class="service_icon">
+                <i class="lni lni-vector"></i>
+              </div>
+              <div class="service_content">
+                <h4 class="service_title"><a href="#">Graphic Design</a></h4>
+                <p>
+                  Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod
+                  to incididunt uabore etdolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <!-- single service -->
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="single_service mt-30 wow fadeInUpBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.5s"
+            >
+              <div class="service_icon">
+                <i class="lni lni-layout"></i>
+              </div>
+              <div class="service_content">
+                <h4 class="service_title"><a href="#">Web Design</a></h4>
+                <p>
+                  Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod
+                  to incididunt uabore etdolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <!-- single service -->
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="single_service mt-30 wow fadeInUpBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.8s"
+            >
+              <div class="service_icon">
+                <i class="lni lni-ux"></i>
+              </div>
+              <div class="service_content">
+                <h4 class="service_title"><a href="#">UI/UX Design</a></h4>
+                <p>
+                  Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod
+                  to incididunt uabore etdolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <!-- single service -->
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="single_service mt-30 wow fadeInUpBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.2s"
+            >
+              <div class="service_icon">
+                <i class="lni lni-code"></i>
+              </div>
+              <div class="service_content">
+                <h4 class="service_title">
+                  <a href="#">Frontend Development</a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod
+                  to incididunt uabore etdolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <!-- single service -->
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="single_service mt-30 wow fadeInUpBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.5s"
+            >
+              <div class="service_icon">
+                <i class="lni lni-briefcase"></i>
+              </div>
+              <div class="service_content">
+                <h4 class="service_title"><a href="#">Business Analysis</a></h4>
+                <p>
+                  Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod
+                  to incididunt uabore etdolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <!-- single service -->
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="single_service mt-30 wow fadeInUpBig"
+              data-wow-duration="1.3s"
+              data-wow-delay="0.8s"
+            >
+              <div class="service_icon">
+                <i class="lni lni-bullhorn"></i>
+              </div>
+              <div class="service_content">
+                <h4 class="service_title"><a href="#">Digital Marketing</a></h4>
+                <p>
+                  Lorem ipsum dolor sit aconsect dipisicing elit, sed do eiusmod
+                  to incididunt uabore etdolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <!-- single service -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== CALL TO ACTION PART START ======-->
+
+    <section id="contact" class="call_to_action_area">
+      <div class="container">
+        <div
+          class="call_to_action_wrapper wow fadeIn"
+          data-wow-duration="1.3s"
+          data-wow-delay="0.5s"
+        >
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="call_to_action_box d-md-flex justify-content-between align-items-center"
+              >
+                <div class="call_to_action_content">
+                  <h3 class="action_title">
+                    You are using free lite version of Freelancer
+                  </h3>
+                  <ul class="line">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                  </ul>
+                  <p>
+                    Please, purchase full version to get all elements, features,
+                    footer credit removal permission and commercial license
+                  </p>
+                </div>
+                <!-- call to action content -->
+
+                <div class="call_to_action_btn">
+                  <a
+                    href="https://rebrand.ly/freelancer-ud"
+                    rel="nofollow"
+                    class="main-btn"
+                    >HIRE ME</a
+                  >
+                </div>
+                <!-- call to action btn -->
+              </div>
+              <!-- call to action box -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- call to action wrapper -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== CALL TO ACTION PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer_area gray-bg pt-115 pb-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="footer_content text-center">
+              <a href="#"><img src="assets/images/logo.svg" alt="Logo" /></a>
+              <ul class="footer_social">
+                <li>
+                  <a href="#"><i class="lni lni-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="lni lni-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="lni lni-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="lni lni-linkedin"></i></a>
+                </li>
+              </ul>
+              <span class="email">someone@example.com</span>
+              <ul class="footer_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+              <p class="credit pt-45">
+                Template Designed and Developed by
+                <a href="https://uideck.com/" rel="nofollow">UIdeck</a>
+              </p>
+            </div>
+            <!-- footer content -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-">
                     
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <h3>50+</h3>
-                            <p>Projects Done</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>5+</h3>
-                            <p>Years Experience</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
+-->
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div style="text-align: center; margin-bottom: 4rem;">
-                <h2 class="reveal" style="font-size: 3rem; margin-bottom: 1rem;">Our <span class="text-gradient">Masterpieces</span></h2>
-                <p class="reveal" style="color: var(--text-muted);">Explore our curation of digital products</p>
-            </div>
+    <!--====== PART ENDS ======-->
 
-            <div class="portfolio-grid">
-                <!-- Project 1 -->
-                <div class="reveal portfolio-item">
-                    <img src="https://picsum.photos/seed/p1/800/600" alt="Project 1" referrerPolicy="no-referrer">
-                    <div class="portfolio-overlay">
-                        <span style="color: var(--accent-color); font-weight: 700; font-size: 0.75rem; text-transform: uppercase;">Web App</span>
-                        <h3 style="font-size: 1.5rem; margin-top: 0.5rem;">Etherium Dashboard</h3>
-                    </div>
-                </div>
-                <!-- Project 2 -->
-                <div class="reveal portfolio-item">
-                    <img src="https://picsum.photos/seed/p2/800/600" alt="Project 2" referrerPolicy="no-referrer">
-                    <div class="portfolio-overlay">
-                        <span style="color: var(--accent-color); font-weight: 700; font-size: 0.75rem; text-transform: uppercase;">Branding</span>
-                        <h3 style="font-size: 1.5rem; margin-top: 0.5rem;">Lumina Design</h3>
-                    </div>
-                </div>
-                <!-- Project 3 -->
-                <div class="reveal portfolio-item">
-                    <img src="https://picsum.photos/seed/p3/800/600" alt="Project 3" referrerPolicy="no-referrer">
-                    <div class="portfolio-overlay">
-                        <span style="color: var(--accent-color); font-weight: 700; font-size: 0.75rem; text-transform: uppercase;">Automation</span>
-                        <h3 style="font-size: 1.5rem; margin-top: 0.5rem;">Zenith SEO</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- row -->
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="reveal">
-                    <h2 style="font-size: 3rem; margin-bottom: 2rem;">Let's Build Something <span class="text-gradient">Iconic</span></h2>
-                    <p style="color: var(--text-muted); font-size: 1.125rem; margin-bottom: 4rem;">Have a vision? We have the tools and expertise to bring it to life. Drop us a message.</p>
-                    
-                    <div style="display: flex; flex-direction: column; gap: 2rem;">
-                        <div style="display: flex; align-items: center; gap: 1rem;">
-                            <div class="icon-box" style="margin: 0; width: 48px; height: 48px;"><svg class="icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg></div>
-                            <span style="font-weight: 500;">hello@nexusmind.agency</span>
-                        </div>
-                    </div>
-                </div>
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
 
-                <div class="reveal contact-form glass">
-                    <form>
-                        <div class="form-group">
-                            <label>Full Name</label>
-                            <input type="text" placeholder="John Doe">
-                        </div>
-                        <div class="form-group">
-                            <label>Email Address</label>
-                            <input type="email" placeholder="john@example.com">
-                        </div>
-                        <div class="form-group">
-                            <label>Message</label>
-                            <textarea rows="4" placeholder="Tell us about your project..."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send Message</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
 
-    <!-- Simple Footer -->
-     
+    <!--====== Appear js ======-->
+    <script src="assets/js/jquery.appear.min.js"></script>
 
-  <!-- Simple Footer -->
-  <footer style="padding: 4rem 0; border-top: 1px solid var(--glass-border); background: rgba(0,0,0,0.2);">
-    <div class="container"
-      style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 2rem;">
-      <a href="#" class="logo">
-        <div class="logo-icon" style="width: 32px; height: 32px; font-size: 1rem;">N</div>
-        <span>NEXUSMIND</span>
-      </a>
-      <p style="color: var(--text-muted); font-size: 0.75rem;">© 2026 NEXUS MIND. ALL RIGHTS RESERVED.</p>
-    </div>
-  </footer>
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
 
-  <script src="./js/index.js"></script>
-</body>
-
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
